@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #b346c2;
+    padding-top: 70px;
+  }
+  
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #907985;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .menu-item {
+   color: #333;
+   padding: 10px;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 10px;
+  }
+  
+  .menu-item:hover {
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  header {
+    color: #000;
+    background-color: pink;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  #habilidades ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #habilidades li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  #experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #experiencia ul li {
+    margin-bottom: 10px;
+  }
+  
+  
+  #proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #proyectos a {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: #da55c6;
+  }
+  
+  #proyectos a:hover {
+    text-decoration: underline;
+  }
+  
+  #sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    
+    font-size: 30px;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #923b98;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #ee55e1;
+    color: white;
+    padding: 5px;
+  }
